@@ -31,4 +31,9 @@ class Owner
     @pets;
   end
 
+  def buy(name)
+    fish = new Fish(name);
+    @fishes << fish;
+  end
+
 end
