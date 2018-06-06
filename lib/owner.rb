@@ -32,7 +32,7 @@ class Owner
   end
 
   def buy(name)
-    fish = new Fish(name);
+    fish = Fish.new(name);
     @fishes << fish;
   end
 
