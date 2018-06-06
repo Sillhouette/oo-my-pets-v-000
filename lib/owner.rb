@@ -7,6 +7,7 @@ class Owner
   def initialize(name)
     @name = name;
     @species = "human";
+    self.class.all << self;
   end
 
   def self.all
@@ -20,4 +21,5 @@ class Owner
   def self.reset
     self.all.clear;
   end
+
 end
