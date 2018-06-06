@@ -31,7 +31,7 @@ class Owner
     @pets;
   end
 
-  def buy(name)
+  def buy_fish(name)
     fish = Fish.new(name);
     @fishes << fish;
   end
