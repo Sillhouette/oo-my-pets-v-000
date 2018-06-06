@@ -59,7 +59,7 @@ class Owner
   end
 
   def sell_pets
-    self.pets.each {|type, pet| type.value.mood = "nervous"};
-    self.pets.each {|type, pet| type.delete};
+    pets.each {|type, pet| type.mood = "nervous"};
+    pets.each {|type, pet| type.delete};
   end
 end
