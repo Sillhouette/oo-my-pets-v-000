@@ -1,10 +1,12 @@
 class Owner
   attr_accessor :name
+  attr_reader :species
 
   @@all = [];
 
   def initialize(name)
-
+    @name = name;
+    @species = "human";
   end
 
   def self.all
@@ -15,7 +17,7 @@ class Owner
     @@all.length;
   end
 
-  def reset
+  def self.reset
     self.all.clear;
   end
 end
