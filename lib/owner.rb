@@ -47,6 +47,6 @@ class Owner
   end
 
   def walk_dogs
-    pets.each { |pet_type| pet_type[:dogs].mood = "happy"};
+    pets.[:dogs].mood = "happy";
   end
 end
