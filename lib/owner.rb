@@ -70,6 +70,6 @@ class Owner
     pets[:fishes].each { |fish| fish_count += 1};
     pets[:dogs].each { |dog| dog_count += 1};
     pets[:cats].each { |cat| cat_count += 1};
-    "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count cat(s)}."
+    "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
   end
 end
