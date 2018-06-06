@@ -28,8 +28,7 @@ class Owner
   end
 
   def pets
-    @pets = {};
-    @pets << @fishes << @dogs << @cats;
+    @pets;
   end
 
 end
