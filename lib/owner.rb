@@ -14,12 +14,12 @@ class Owner
     @@all;
   end
 
-  def self.count_owners
+  def self.count
     @@all.length;
   end
 
-  def self.reset
-    self.all.clear;
+  def self.reset_all
+        self.all.clear;
   end
 
 end
